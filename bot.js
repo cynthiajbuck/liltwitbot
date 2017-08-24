@@ -22,7 +22,7 @@ var T = new Twit({
 //	command:[],commander:"",id:"", counter:0
 //}
 
-T.post('statuses/update', { status: "I'm awake!"}, function(err, data, response) {
+T.post('statuses/update', { status: "I have boon deployed!"}, function(err, data, response) {
 	console.log(data)
 })
 
